@@ -1,0 +1,50 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+i {
+  font-style: normal;
+}
+html,
+body {
+  height: 100%;
+  font-family: "苹方";
+}
+.ui-header {
+  width: 10rem;
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+}
+.ui-header > span {
+  vertical-align: middle;
+  font-size: 18px;
+}
+[data-dpr="2"] .ui-header > span {
+  font-size: 36px;
+}
+[data-dpr="3"] .ui-header > span {
+  font-size: 54px;
+}
+.header-left {
+  position: absolute;
+  left: .568889rem;
+}
+.header-left > img {
+  vertical-align: middle;
+  width: .266667rem;
+  height: .444444rem;
+}
+.header-right {
+  position: absolute;
+  right: .8rem;
+}
+.header-right > img {
+  width: .533333rem;
+  height: .533333rem;
+  vertical-align: middle;
+}
